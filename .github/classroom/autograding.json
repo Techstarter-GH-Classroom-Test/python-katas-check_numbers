@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test if File exists",
+      "setup": "",
+      "run": "python -m unittest test_check_numbers.Test.test_file_exists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test checm_number Function",
+      "setup": "",
+      "run": "python -m unittest test_check_numbers.Test.test_check_number",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
